@@ -10,7 +10,7 @@ public class TestNGDemo {
 	@AfterMethod
 	public void tearDown()
 	{
-		
+	    
 		System.out.println("Browser closed ..");
 	}
 	

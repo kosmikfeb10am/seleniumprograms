@@ -1,0 +1,10 @@
+<a href="/men-tshirts" style="color:;" class="desktop-categoryLink" data-reactid="30">T-Shirts</a>
+
+<a href="/boys-tshirts" style="color:;" class="desktop-categoryLink" data-reactid="334">T-Shirts</a>
+
+
+//a[text()='T-Shirts']   --->  1 of 3
+
+//a[text()='T-Shirts' and @data-reactid]  --> 1 0f 2
+
+//a[text()='T-Shirts' and contains(@href,'men')]   --->  1 of 1
