@@ -8,3 +8,7 @@
 //a[text()='T-Shirts' and @data-reactid]  --> 1 0f 2
 
 //a[text()='T-Shirts' and contains(@href,'men')]   --->  1 of 1
+
+//img[contains(@src,'google-play')]/parent::a
+
+//a[text()='See more']
