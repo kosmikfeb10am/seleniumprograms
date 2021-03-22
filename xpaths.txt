@@ -12,3 +12,20 @@
 //img[contains(@src,'google-play')]/parent::a
 
 //a[text()='See more']
+
+//img[contains(@src,'ios-button')]/parent::a
+
+
+//a[text()='Terms of Service']
+
+
+<a target="_blank" href="http://users.ipa.net/%7Edjhill/frmain.html">
+	<font color="#3399ff">The
+"I Hate Frames" Frames Page</font></a>
+
+//font[contains(text(),'I Hate Frames')]
+
+(//font[contains(text(),'I Hate Frames')])[1]/parent::a
+
+
+

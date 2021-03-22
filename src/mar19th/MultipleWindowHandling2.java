@@ -11,7 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class MultipleWindowHandling {
+public class MultipleWindowHandling2 {
 	
 	
 WebDriver driver;
@@ -45,27 +45,9 @@ WebDriver driver;
 		
 		Set<String> windowIds=driver.getWindowHandles();
 		
+		System.out.println(windowIds);
+		
 		Iterator<String> it=windowIds.iterator();
-		
-		while(it.hasNext())
-		{
-			
-			driver.switchTo().window(it.next());
-			
-			try
-			{
-			driver.findElement(By.xpath("//a[text()='See more']")).click();
-			break;
-			}
-			catch(NoSuchElementException e)
-			{
-				
-				System.out.println("NoSuchElementException found in this window");
-			}
-			
-		}
-		
-		Thread.sleep(30000);
 		
 		
 	}
