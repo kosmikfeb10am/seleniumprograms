@@ -27,5 +27,7 @@
 
 (//font[contains(text(),'I Hate Frames')])[1]/parent::a
 
+//span[text()="'How old are you?'"]/ancestor::div[1]/preceding-sibling::div/descendant::a[@title='run']
+
 
 
